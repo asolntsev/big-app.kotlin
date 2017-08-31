@@ -1,0 +1,28 @@
+defaultTasks 'classes'
+
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.4-3'
+  }
+}
+
+apply plugin: "kotlin"
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.jetbrains.kotlin:kotlin-stdlib:1.1.4-3'
+}
+
+task libs(type: Sync) {
+  from configurations.compile
+  from configurations.testCompile
+  into "$buildDir/lib"
+}
+
+compileKotlin.dependsOn libs
