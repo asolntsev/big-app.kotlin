@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-  compile 'org.jetbrains.kotlin:kotlin-stdlib:1.2.41'
+  compile 'org.jetbrains.kotlin:kotlin-stdlib:1.2.50'
 }
 
 task libs(type: Sync) {
