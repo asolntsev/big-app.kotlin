@@ -13,4 +13,5 @@ Sample application with ~500 Kotlin classes to test performance of Kotlin compil
 * Kotlin 1.1.4-3:         `BUILD SUCCESSFUL in 8m 0s`
 * Kotlin 1.2.41:          `BUILD SUCCESSFUL in 7m 9s`
 * Kotlin 1.2.50:          `BUILD SUCCESSFUL in 6m 20s`
-* Kotlin 1.2.51:          `BUILD SUCCESSFUL in 6m 20s`
+* Kotlin 1.2.51:          `BUILD SUCCESSFUL in 4m 52s`
+* Kotlin 1.2.60:          `BUILD SUCCESSFUL in 4m 54s`
