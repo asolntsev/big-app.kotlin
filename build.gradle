@@ -5,7 +5,7 @@ buildscript {
     mavenCentral()
   }
   dependencies {
-    classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.50'
+    classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.51'
   }
 }
 
@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-  compile 'org.jetbrains.kotlin:kotlin-stdlib:1.2.50'
+  compile 'org.jetbrains.kotlin:kotlin-stdlib:1.2.51'
 }
 
 task libs(type: Sync) {
