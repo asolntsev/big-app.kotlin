@@ -1,6 +1,8 @@
 # big-app.kotlin
 Sample application with ~500 Kotlin classes to test performance of Kotlin compiler
 
+See issue https://youtrack.jetbrains.com/issue/KT-20055
+
 # to measure compilation time
  
 ... just run from command line:
