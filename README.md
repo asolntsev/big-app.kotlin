@@ -26,3 +26,5 @@ See issue https://youtrack.jetbrains.com/issue/KT-20055
 * Kotlin 1.3.30:          `BUILD SUCCESSFUL in 2m 35s`
 * Kotlin 1.3.31:          `BUILD SUCCESSFUL in 3m 18s`
 * Kotlin 1.3.40:          `BUILD SUCCESSFUL in 3m 52s`
+* Kotlin 1.3.50:          `BUILD SUCCESSFUL in 3m 6s`
+* Kotlin 1.3.60:          `BUILD SUCCESSFUL in 3m 16s`
