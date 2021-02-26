@@ -8,7 +8,7 @@ See issue https://youtrack.jetbrains.com/issue/KT-20055
 ... just run from command line:
 
 ```
-./gradlew clean classes
+./gradlew clean classes --rerun-tasks
 ```
 
 # Results on my machine (MacBook Pro 2017) 
@@ -36,3 +36,4 @@ See issue https://youtrack.jetbrains.com/issue/KT-20055
 * Kotlin 1.4.20:          `BUILD SUCCESSFUL in 4m 57s`
 * Kotlin 1.4.21:          `BUILD SUCCESSFUL in 3m 49s`
 * Kotlin 1.4.30:          `BUILD SUCCESSFUL in 4m 4s`
+* Kotlin 1.4.31:          `BUILD SUCCESSFUL in 5m 10s`
