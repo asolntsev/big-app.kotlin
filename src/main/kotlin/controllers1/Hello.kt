@@ -11,8 +11,10 @@ class Hello {
         println("Hello " + debug()!!)
     }
 
+    data class Message(val text: Any?)
+
     private fun debug(): Any? {
-        return getSomething()
+        return Message(getSomething())
     }
 
     private fun sort(list: List<Any>) {
