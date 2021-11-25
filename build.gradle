@@ -28,6 +28,6 @@ compileKotlin.dependsOn libs
 
 compileKotlin {
   kotlinOptions {
-    freeCompilerArgs = ['-nowarn']
+    freeCompilerArgs = ['-nowarn', '-Xuse-fir']
   }
 }
