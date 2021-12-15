@@ -44,4 +44,4 @@ See issue https://youtrack.jetbrains.com/issue/KT-20055
 * Kotlin 1.5.30:          `BUILD SUCCESSFUL in 4m 5s`
 * Kotlin 1.5.31:          `BUILD SUCCESSFUL in 3m 57s`
 * Kotlin 1.6.0:           `BUILD SUCCESSFUL in 4m 19s`
-* Kotlin 1.6.0(-Xuse-fir) `BUILD SUCCESSFUL in 4m 21s`
+* Kotlin 1.6.10:          `BUILD SUCCESSFUL in 2m 11s`
