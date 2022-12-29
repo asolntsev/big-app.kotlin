@@ -1,33 +1,27 @@
-defaultTasks 'classes'
-
-buildscript {
-  repositories {
-    mavenCentral()
-  }
-  dependencies {
-    classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0'
-  }
+plugins {
+  id 'org.jetbrains.kotlin.jvm' version "$kotlinVersion"
 }
 
-apply plugin: "kotlin"
+defaultTasks 'classes'
 
 repositories {
   mavenCentral()
 }
 
 dependencies {
-  implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.8.0'
+  implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
 }
 
-task libs(type: Sync) {
+tasks.register('libs', Sync) {
   from configurations.testRuntimeClasspath
   into "$buildDir/lib"
 }
 
 compileKotlin.dependsOn libs
 
-compileKotlin {
-  kotlinOptions {
-    freeCompilerArgs = ['-nowarn', '-Xuse-k2']
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask).configureEach {
+  compilerOptions {
+    freeCompilerArgs.add('-nowarn')
+    freeCompilerArgs.add('-Xuse-k2')
   }
 }
