@@ -12,13 +12,6 @@ dependencies {
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
 }
 
-tasks.register('libs', Sync) {
-  from configurations.testRuntimeClasspath
-  into "$buildDir/lib"
-}
-
-compileKotlin.dependsOn libs
-
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask).configureEach {
   compilerOptions {
     freeCompilerArgs.add('-nowarn')
