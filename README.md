@@ -51,5 +51,6 @@ See issue https://youtrack.jetbrains.com/issue/KT-20055
 The following times are measured on MacBook Pro M1 2021:
 * Kotlin 1.8.0:           `BUILD SUCCESSFUL in 35s`
 * Kotlin 1.8.10:          `BUILD SUCCESSFUL in 39s`
+* Kotlin 1.8.20:          `BUILD SUCCESSFUL in 33s`
 
 
