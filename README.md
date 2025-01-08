@@ -53,5 +53,14 @@ The following times are measured on MacBook Pro M1 2021:
 * Kotlin 1.8.10:          `BUILD SUCCESSFUL in 39s`
 * Kotlin 1.8.20:          `BUILD SUCCESSFUL in 33s`
 * Kotlin 1.9.0:           `BUILD SUCCESSFUL in 33s`
+* Kotlin 1.9.10:          `BUILD SUCCESSFUL in 33s`
+* Kotlin 1.9.20:          `BUILD SUCCESSFUL in 36s`
+* Kotlin 1.9.21:          `BUILD SUCCESSFUL in 41s`
+* Kotlin 1.9.22:          `BUILD SUCCESSFUL in 33s`
+* Kotlin 1.9.23:          `BUILD SUCCESSFUL in 34s`
+* Kotlin 1.9.24:          `BUILD SUCCESSFUL in 39s`
+* Kotlin 1.9.25:          `BUILD SUCCESSFUL in 33s`
+* Kotlin 2.0.0:           `BUILD SUCCESSFUL in 37s`
+* Kotlin 2.0.10:          `BUILD SUCCESSFUL in 40s`
 
 

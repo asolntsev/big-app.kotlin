@@ -15,6 +15,7 @@ dependencies {
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask).configureEach {
   compilerOptions {
     freeCompilerArgs.add('-nowarn')
-    freeCompilerArgs.add('-Xuse-k2')
+    freeCompilerArgs.add('-language-version')
+    freeCompilerArgs.add('2.0')
   }
 }
